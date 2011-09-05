@@ -66,5 +66,5 @@ nnoremap <C-L> :nohlsearch<CR><C-L>
 "cnoremap orig !cp -aiv % %.orig
 
 " Shortcut for :bnext and :bprevious.
-nmap <C-Left> :bprevious<CR>
-nmap <C-Right> :bnext<CR>
+nmap <A-Left> :bprevious<CR>
+nmap <A-Right> :bnext<CR>
