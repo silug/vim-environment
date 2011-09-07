@@ -68,3 +68,6 @@ nnoremap <C-L> :nohlsearch<CR><C-L>
 " Shortcut for :bnext and :bprevious.
 nmap <A-Left> :bprevious<CR>
 nmap <A-Right> :bnext<CR>
+
+" Hide other buffers instead of abandoning them.
+set hidden
