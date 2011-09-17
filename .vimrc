@@ -71,3 +71,21 @@ nmap <A-Right> :bnext<CR>
 
 " Hide other buffers instead of abandoning them.
 set hidden
+
+" Makes visual block mode awesome.  (Thanks, Bill!)
+set virtualedit=block
+
+" Indent in visual and select mode automatically re-selects.
+" (Also suggested by @wnodom.)
+vnoremap > >gv
+vnoremap < <gv
+
+" Scroll when we get 1 line away from the edge of the window.
+set scrolloff=1
+
+" Keeps the cursor in the center of the window.
+" @wnodom can tell you where this comes from.
+nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
+
+" In email, replace my .signature with the output of the 'sig' script.
+nnoremap <F10> /^-- <CR>:noh<CR>jdG:r !sig<CR>``
