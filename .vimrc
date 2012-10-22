@@ -4,13 +4,10 @@ set nocompatible        " Use Vim defaults (much better!)
 set backspace=indent,eol,start         " allow backspacing over everything in insert mode
 set viminfo='20,\"50    " read/write a .viminfo file, don't store more
                         " than 50 lines of registers
-set history=50          " keep 50 lines of command line history
+set history=5000        " keep 5000 lines of command line history
 set ruler               " show the cursor position all the time
 syntax on
 set hlsearch
-
-" I'm old-school like that.
-set exrc
 
 " This breaks horribly on Windows for me.
 if !has("win32")
