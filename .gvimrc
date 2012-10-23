@@ -23,7 +23,7 @@ endif
 " Turn on line numbers.
 set number
 
-" Big enough for 80 colums plus line numbers.  See
+" Big enough for 80 columns plus line numbers.  See
 "   http://groups.google.com/group/vim-geeks/browse_thread/thread/d4791e42e08c2965
 " for more background information.
 set columns=90
