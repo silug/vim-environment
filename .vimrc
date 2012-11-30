@@ -86,3 +86,7 @@ nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
 
 " In email, replace my .signature with the output of the 'sig' script.
 nnoremap <F10> /^-- <CR>:noh<CR>jdG:r !sig<CR>``
+
+" Makes . do the right thing in visual mode.
+" From @nelstrom, via @wnodom and @CrypticSwarm.
+vnoremap . :normal .<CR>
