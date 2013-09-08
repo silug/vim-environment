@@ -90,3 +90,9 @@ nnoremap <F10> /^-- <CR>:noh<CR>jdG:r !sig<CR>``
 " Makes . do the right thing in visual mode.
 " From @nelstrom, via @wnodom and @CrypticSwarm.
 vnoremap . :normal .<CR>
+
+" Borrowed from the stock sample vimrc.
+if !exists(":DiffOrig")
+  command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
+		  \ | wincmd p | diffthis
+endif
