@@ -19,6 +19,7 @@ set background=dark
 
 " Status bar stuff.
 set showcmd
+set laststatus=2
 
 " Make tab completion work more like it does in bash.
 set wildmode=longest,list
