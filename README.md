@@ -19,6 +19,11 @@ There will be things commented out, maybe because they didn't work, or because I
 tried something and didn't like it.  I will try to add some comments about why
 things didn't work when I think about it.
 
+The various plugins that I'm using have dependencies.  On Fedora, they can be
+met with the following:
+
+  dnf install puppet rubygem-puppet-lint
+
 <!--
   vim: ai et tw=80 spell spelllang=en
 -->

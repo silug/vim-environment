@@ -17,10 +17,6 @@ endif
 " I *always* use a light-on-dark terminal.
 set background=dark
 
-" Status bar stuff.
-set showcmd
-set laststatus=2
-
 " Make tab completion work more like it does in bash.
 set wildmode=longest,list
 
@@ -105,3 +101,27 @@ set mouse+=a
 " Enable pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
+
+" Status bar stuff.
+set showcmd
+set laststatus=2
+
+" Default left statusline info
+set statusline=%<%f\ %h%m%r
+
+" Fugitive statusline
+set statusline+=%{fugitive#statusline()}
+
+" Syntastic statusline
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+" Default right statusline info
+set statusline+=%=%-14.(%l,%c%V%)\ %P
+
+" Syntastic settings
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
