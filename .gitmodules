@@ -31,3 +31,6 @@
 [submodule "bundle/vim-terraform"]
 	path = bundle/vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
+[submodule "bundle/epp-syntax-vim"]
+	path = bundle/epp-syntax-vim
+	url = https://github.com/farkasmate/epp-syntax-vim.git
