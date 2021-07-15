@@ -122,3 +122,7 @@ nnoremap <Leader>F :vertical wincmd F \| wincmd L<CR>
 
 " Quiet SnipMate deprecation message
 let g:snipMate = { 'snippet_version' : 1 }
+
+" Ctrl+/ toggles comments
+nnoremap <C-/> :Commentary<CR>
+vnoremap <C-/> :Commentary<CR>
