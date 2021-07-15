@@ -22,9 +22,6 @@
 [submodule "bundle/vim-puppet"]
 	path = bundle/vim-puppet
 	url = https://github.com/rodjek/vim-puppet.git
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/vim-vagrant"]
 	path = bundle/vim-vagrant
 	url = https://github.com/hashivim/vim-vagrant.git
@@ -34,3 +31,6 @@
 [submodule "bundle/epp-syntax-vim"]
 	path = bundle/epp-syntax-vim
 	url = https://github.com/farkasmate/epp-syntax-vim.git
+[submodule "bundle/ale"]
+	path = bundle/ale
+	url = https://github.com/dense-analysis/ale.git
