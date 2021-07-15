@@ -98,10 +98,6 @@ endif
 " Shift+mouse in xterm reverts to normal xterm behavior.
 set mouse+=a
 
-" Enable pathogen
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
-
 " Status bar stuff.
 set showcmd
 set laststatus=2
