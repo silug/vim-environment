@@ -118,3 +118,7 @@ set statusline+=%=%-14.(%l,%c%V%)\ %P
 " \f opens the filename under the current cursor in a
 " vertical split window on the right of the current window
 nnoremap <Leader>f :vertical wincmd f \| wincmd L<CR>
+nnoremap <Leader>F :vertical wincmd F \| wincmd L<CR>
+
+" Quiet SnipMate deprecation message
+let g:snipMate = { 'snippet_version' : 1 }
