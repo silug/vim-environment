@@ -37,3 +37,12 @@
 [submodule "bundle/vim-commentary"]
 	path = pack/bundle/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "pack/bundle/start/vim-CaptureClipboard"]
+	path = pack/bundle/start/vim-CaptureClipboard
+	url = https://github.com/inkarkat/vim-CaptureClipboard.git
+[submodule "pack/bundle/start/vim-ingo-library"]
+	path = pack/bundle/start/vim-ingo-library
+	url = https://github.com/inkarkat/vim-ingo-library.git
+[submodule "pack/bundle/start/surround"]
+	path = pack/bundle/start/surround
+	url = https://tpope.io/vim/surround.git
